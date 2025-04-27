@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header{
+    background: #28a745;
+    color: white;
+    /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
+    padding: 15px 0; 
+    font-size: 24px;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex; /* Flex Boxing */
+    /* alinhamento na horizontal - espaço entre os links */
+    justify-content: space-between;
+    /* alinhamento na vertical */
+    align-items: center;
+}
+#links-menu {
+    display: flex;
+    gap: 15px;
+}
+/* configura o estilo das âncoras que estão dentro do nav */
+nav a {
+    color: white; /* texto branco */
+    text-decoration: none; /* não faz decoração no link */
+    padding: 10px 15px; /* 10px é acima e abaixo 15px é esq e dir */
+    font-size: 18px; /* 18px de tamanho da fonte */
+    background: #005663; /* cor de fundo */
+    border-radius: 5px; /* borda com canto arredondado */
+}
+nav a:hover {
+    background: #003d82;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-right: 5px; /* espaçamento externo à direita de 20px */
+    border-radius: 10px;
+}
+
+.container{
+    width: 80%;
+    /* 20px em cima e em baixo e automática èsquerda e direto*/
+    margin: 20px auto; 
+    background: white;
+    /* espaçamento interno é nos 4 lados */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table {
+    /* esp. externo de 0 acima e abaixo e automático esq. dir. */
+    margin: 0 auto; 
+}
+
+.laranja {
+    background-color: orange;
+}
+.azul {
+    background-color: blue;
+    color: white;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxo {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+
+.table2{
+margin: 70px;
+}
+
+.table2 tr td{
+    padding: 20px
+    }
+
+
+.campos{
+    border:  1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.alimentosesuplementos{
+    text-align:justify;
+    padding: 25px;
+    }
+
+.alimentosesuplementos h3{
+    border: 1px solid black;
+    margin: 20px
+        }
+
+.alimentosesuplementos h3{
+    background-color:#d8ebff
+}
+table{
+    border-collapse:collapse
+    }
+table{
+        border-color:black
+}
+table{
+    border-width: 2px;
+}
+.tablePontuacoes td{
+    text-align: justify;
+}
+.tablePontuacoes th{
+    background-color: rgb(176, 187, 208);
+
+}
+.tablePontuacoes td{
+    background-color: rgb(176, 187, 208);
+
+}
+.tablePontuacoes{
+    margin: 50px;
+    text-align: center;
+}
+.tableAvulso{
+    text-align: justify;
+    border-color: black;
+}
+.tableAvulso td{
+    background-color:rgb(176, 187, 208);
+}
+.alimAdicionais{
+    margin: 50px
+}
+.paragrafo{
+    margin: 50px;
+}
+.textImprotante{
+    margin: 50px
+}
+.tableImportante td{
+    background-color: beige;
+}
+
+.doacao td{
+    text-align:start ;
+    background-color: rgb(176, 187, 208);
+}
+.tableDoacao th{
+    background-color:#003d82 ;
+    width: 30%;
+}
+.tableOrdem th{
+    background-color: #003d82;
+}
+.tableMetas th{
+    background-color: #003d82;
+}
+.container th{
+    background-color: #003d82;
+}
+.tableEntrega td{
+   background-color:rgb(176, 187, 208) ;
+   text-align: justify;
+}
+.tableRelatorio{
+    text-align: justify;
+}
+.tableEstudantes td{
+    background-color: rgb(176, 187, 208);
+}
+.tableEstudantes{
+    text-align: center;
+}
+.table3{
+    background-color: #9fb4cb;
+    width: auto;
+}
+.tempoEquipe{
+    background-color:rgb(244, 239, 233);
+}
+.container{
+    text-align: center;
+}
